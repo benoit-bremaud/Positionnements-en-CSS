@@ -1,0 +1,27 @@
+#section1{
+    background-color: red;
+    height: 200px;
+}
+
+#section2{
+    background-color: green;
+    height: 200px;
+}
+#section2 div{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    display: inline-block;
+
+}
+
+#section3{
+    background-color: blue;
+    height: 200px;
+}
+
+#div2{
+    position: relative;
+    top: 25px; /* 25px à partir de son emplacement relatif */
+    left: 10px; /* 10px à partir de son emplacement relatif */
+}

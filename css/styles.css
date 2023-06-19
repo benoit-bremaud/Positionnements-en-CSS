@@ -17,7 +17,7 @@
 
 #section3{ /* Parent plus proche de zone div dans section 3 */
     background-color: blue;
-    height: 200px;
+    height: 400px;
     position: relative; /* Par rapport à la position d'origine */
 }
 
@@ -33,17 +33,16 @@
     width: 50px;
     height: 50px;
     /* Positionnement à milieu de sa zone parent */
-    position: absolute; /* Positionne par rapport au document, ou par rapport au parent le plus proche qui a un positionnement */
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: sticky; 
+    top: 0%;
+    left: 10%;
+    /* transform: translate(-50%, -50%); */
 }
 
 #div3{
-    position: fixed; /* Position par rapport à la fenêtre, ne bougera jamais de la position où il se trouve */
-    /* bottom: 5px; */
-    top: 40%;
-    right: 5px;
+    position: sticky; 
+    top: 0;
+    /* right: 5px; */
     background-color: greenyellow;
     /* Propriété de positionnement le "z-index" */
     /* z-index peut prendre les valeur 5, 10, 50 */
